@@ -1,1 +1,16 @@
+ curl https://api.github.com/repos/fatmaezzahraeelhanine/github-final-project/pulls/1 | tee bug-fix-revert
+{
+  "url": "https://api.github.com/repos/fatmaezzahraeelhanine/github-final-project/pulls/1",
+  "state": "open",
+  "title": "Bug fix revert",
+  "user": {
+      "login": "fatmaezzahraeelhanine"
+  },
+  "head": {
+      "repo": {
+          "full_name": "fatmaezzahraeelhanine/github-final-project"
+      }
+  },
+  ...
+}
 
